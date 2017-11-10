@@ -1,8 +1,8 @@
-var Hapi = require('hapi');
-var Path = require('path');
-var Inert = require('inert');
+let Hapi = require('hapi');
+let Path = require('path');
+let Inert = require('inert');
 
-var server = new Hapi.Server({
+let server = new Hapi.Server({
     connections: {
         routes: {
             files: {
